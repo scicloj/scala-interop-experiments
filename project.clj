@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [t6/from-scala "0.3.0"]
                  [org.scala-lang/scala-library "2.11.6"]
-                 [com.stripe/rainier-core_2.11 "0.2.0"]]
-  :repl-options {:init-ns scala-interop-experiments.core})
+                 [com.stripe/rainier-core_2.11 "0.2.0"]])

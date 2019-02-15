@@ -1,7 +1,7 @@
 (ns scala-interop-experiments.core
   (:require [t6.from-scala.core :refer ($ $$) :as $]
             [clojure.reflect :refer [reflect]])
-  (:import (scala.collection.immutable Tuple List)))
+  (:import (scala.collection.immutable List)))
 
 ;; See https://t6.github.io/from-scala/
 
